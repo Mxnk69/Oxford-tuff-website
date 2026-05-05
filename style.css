@@ -1,10 +1,15 @@
+html {
 
+  scroll-behavior: smooth;
+}
 body {
+  scroll-behavior: smooth;
   margin: 0;
  font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100%;
   font-style: normal;
+  
 }
 
 /* Top Bar */
@@ -22,12 +27,17 @@ body {
   text-decoration: none;
 }
 
-/* Navbar */
+
+
 .navbar {
+  top: 0;
+  position: sticky;
   background: #4a5ccf;
+  
 }
 
 .navbar ul {
+
   list-style: none;
   margin: 0;
   padding: 0;
@@ -90,3 +100,89 @@ span {
     padding: 0px;
 }
 
+/* .logo img{
+height: 150px;
+padding-left: 230px;
+margin-left: 200px;
+}
+
+.logo h2 {
+
+  font-size: 40px;
+ float: right;
+ padding-right: 390px;
+ padding-top: 25px;
+
+} */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 150px;
+  margin-left: 375px;
+}
+
+.logo h2 {
+  font-size: 40px;
+  margin-left: 20px; 
+  margin-bottom: 5px;
+}
+
+
+
+
+.bodyimg img{
+  width: 100%;
+  margin-top: 5px;
+}
+#hardware {
+  height: 800px;
+}
+#hardware img{
+  height: 300px;
+  margin: 30px;
+  width: 300px;
+  background-color: blue;
+}
+#about{
+  height: 500px;
+  background-color: pink;
+}
+#contact{
+  height: 500px;
+  background-color: #8272dd;
+  padding: 15px;
+  text-align: center;
+}
+#contact h2{
+  color: white;
+  font-size: 40px;
+}
+#contact p{
+  color: white;
+}
+*{
+  scroll-behavior: smooth;
+}
+footer{
+  background-color: #4a5ccf;
+  width:100%;
+  padding: 5px;
+  color: white;
+  position: sticky;
+  bottom: 0;
+/* }
+
+.BUT {
+  padding-left: 960px;
+
+} */
+
+.BUT {
+  margin-left: 20px;   
+  display: flex;
+
+}
